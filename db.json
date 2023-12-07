@@ -1,0 +1,50 @@
+{
+  "programList": [
+    {
+      "programName": "Science",
+      "description": "Department of Science",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "programName": "Commerce",
+      "description": "Department of Commerce",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "programName": "Arts",
+      "description": "Department of Humanities, Social Sciences, History and Geography",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "programName": "Physics",
+      "description": "Relativity, Quantum Mechanics and String Theory",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "programName": "Chemistry",
+      "description": "Organic and Inorganic Chemistry",
+      "status": "Active",
+      "id": 5
+    },
+    {
+      "programName": "Maths",
+      "description": "But i love math",
+      "status": "Active",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

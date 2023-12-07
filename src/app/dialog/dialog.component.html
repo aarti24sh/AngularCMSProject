@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Add Program Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="programForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Program Name</mat-label>
+            <input formControlName="programName" matInput placeholder="Name">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Description</mat-label>
+            <input formControlName="description" matInput placeholder="Description">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Status</mat-label>
+            <mat-select formControlName="status" placeholder="Status">
+                <mat-option value="Active">Active</mat-option>
+                <mat-option value="Inactive">Inactive</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addProgram()">{{actionBtn}}</button>
+</div>
